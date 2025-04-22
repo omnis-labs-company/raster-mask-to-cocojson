@@ -1,6 +1,6 @@
 # raster-mask-to-cocojson
 
-This code is a boilerplate for segmentation mask extraction software written in a high-performance C++17 to extract polygonal ground-truth masks from the [SemSeg Outdoor Pano dataset (all‑rgb‑masks)](https://github.com/semihorhan/semseg-outdoor-pano/tree/main/all-rgb-masks) and convert them into COCO-style JSON annotations.
+This code is a boilerplate for segmentation mask extraction software written in a high-performance C++17 to extract polygonal ground-truth masks from the [SemSeg Outdoor Pano dataset (all‑rgb‑masks)](https://github.com/semihorhan/semseg-outdoor-pano/tree/main) and convert them into COCO-style JSON annotations.
 It is especially useful for preparing training datasets for semantic segmentation AI models, converting color-based mask images into structured annotation formats, or uploading annotation data to platforms like Deep Block, which supports COCO-format inputs.
 Simply compile the code and run the resulting binary to accelerate your annotation pipeline with minimal overhead.
 
